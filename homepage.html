@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html lang="en" class="md-theme-default">
-	<body>
-		<div class="homepage ">
-			<div class="show" id="snackbar">
-				<div style="flex: 1 1 0%;text-align: left;">研究生用户，入校授权有效！</div>
-				<div class="md-button-content" style="text-align: right;">关闭</div> 
-			</div>
-			<div class="pass-content">
-				<div class="pass-result">研究生用户，入校授权有效！</div>
-				<ul class="md-list pass-list md-theme-default">
-					<li class="md-list-item">
-						<svg focusable="false" viewBox="0 0 24 24" aria-hidden="true" tabindex="-1" title="Person" data-ga-event-category="material-icons" data-ga-event-action="click" data-ga-event-label="Person" class="list-icon">
-							<path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path>
-						</svg>
-						<div class="md-list-item-text list-title">用户姓名</div>
-						<div class="md-list-action list-text">试着点我三次</div> 
-					</li>
-					<li class="md-list-item">
-						<svg focusable="false" viewBox="0 0 24 24" aria-hidden="true" tabindex="-1" title="Group" data-ga-event-category="material-icons" data-ga-event-action="click" data-ga-event-label="Group" class="list-icon">
-							<path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"></path>
-						</svg>
-						<div class="md-list-item-text list-title">登记类型</div>
-						<div class="md-list-action list-text">研究生（硕士）</div> 
-					</li>
-					<li class="md-list-item">
-						<svg focusable="false" viewBox="0 0 24 24" aria-hidden="true" tabindex="-1" title="Timer" data-ga-event-category="material-icons" data-ga-event-action="click" data-ga-event-label="Timer" class="list-icon">
-							<path d="M15 1H9v2h6V1zm-4 13h2V8h-2v6zm8.03-6.61l1.42-1.42c-.43-.51-.9-.99-1.41-1.41l-1.42 1.42C16.07 4.74 14.12 4 12 4c-4.97 0-9 4.03-9 9s4.02 9 9 9 9-4.03 9-9c0-2.12-.74-4.07-1.97-5.61zM12 20c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z"></path>
-						</svg>
-						<div class="md-list-item-text list-title">登记时间</div>
-						<div class="md-list-action list-text time-text">
-							<div class="line-text">2022-10-02 18:18:40 2022-10-02 18:18:40</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="pass-button">
-				<button type="button" class="md-button md-primary md-raised md-theme-default">
-					<div class="md-button-content">
-						<span class="pass-button-content">前往个人二维码</span>
-					</div> 
-				</button>
-			</div>
-			<div class="logo">
-				<img src="./平安成电智慧通行_files/logo.png" alt="" onclick="if(document.getElementsByClassName(&quot;pass-result&quot;)[0].innerText == &quot;研究生用户，入校授权有效！&quot;)  document.getElementsByClassName(&quot;pass-result&quot;)[0].innerText = &quot;研究生用户，出校登记成功！&quot;; else document.getElementsByClassName(&quot;pass-result&quot;)[0].innerText = &quot;研究生用户，入校授权有效！&quot;;" class="logo-img">
-			</div>
+<body>
+	<div class="homepage ">
+		<div class="show" id="snackbar">
+			<div style="flex: 1 1 0%;text-align: left;display:inline;">研究生用户，入校授权有效！</div>
+			<button type="button" class="snackbar-button" style="display:inline;">
+				<div class="snackbar-button-content">关闭</div> 
+			</button>
 		</div>
-	</body>
+		<div class="pass-content">
+			<div class="pass-result">研究生用户，入校授权有效！</div>
+			<ul class="pass-info">
+				<li class="md-list-item">
+					<svg focusable="false" viewBox="0 0 20 20" aria-hidden="true" tabindex="-1" title="Person" data-ga-event-category="material-icons" data-ga-event-action="click" data-ga-event-label="Person" class="list-icon">
+
+						<path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path>
+					</svg>
+					<div class="info" style="display:inline;">用户姓名</div>
+					<div class="name" style="display:inline;">试着点我三次</div> 
+				</li>
+				<li class="md-list-item">
+					<svg focusable="false" viewBox="0 0 24 24" aria-hidden="true" tabindex="-1" title="Group" data-ga-event-category="material-icons" data-ga-event-action="click" data-ga-event-label="Group" class="list-icon">
+						<path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"></path>
+					</svg>
+					<div class="md-list-item-text list-title">登记类型</div>
+					<div class="md-list-action list-text">研究生（硕士）</div> 
+				</li>
+				<li class="md-list-item">
+					<svg focusable="false" viewBox="0 0 24 24" aria-hidden="true" tabindex="-1" title="Timer" data-ga-event-category="material-icons" data-ga-event-action="click" data-ga-event-label="Timer" class="list-icon">
+						<path d="M15 1H9v2h6V1zm-4 13h2V8h-2v6zm8.03-6.61l1.42-1.42c-.43-.51-.9-.99-1.41-1.41l-1.42 1.42C16.07 4.74 14.12 4 12 4c-4.97 0-9 4.03-9 9s4.02 9 9 9 9-4.03 9-9c0-2.12-.74-4.07-1.97-5.61zM12 20c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z"></path>
+					</svg>
+					<div class="md-list-item-text list-title">登记时间</div>
+					<div class="md-list-action list-text time-text">
+						<div class="line-text">2022-10-02 18:18:40 2022-10-02 18:18:40</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="pass-button">
+			<button type="button" class="md-button md-primary md-raised md-theme-default">
+				<div class="md-button-content">
+					<span class="pass-button-content">前往个人二维码</span>
+				</div> 
+			</button>
+		</div>
+		<div class="logo">
+			<img src="./平安成电智慧通行_files/logo.png" alt="" onclick="if(document.getElementsByClassName(&quot;pass-result&quot;)[0].innerText == &quot;研究生用户，入校授权有效！&quot;)  document.getElementsByClassName(&quot;pass-result&quot;)[0].innerText = &quot;研究生用户，出校登记成功！&quot;; else document.getElementsByClassName(&quot;pass-result&quot;)[0].innerText = &quot;研究生用户，入校授权有效！&quot;;" class="logo-img">
+		</div>
+	</div>
+</body>
 	</html>
